@@ -89,7 +89,7 @@ resource "aws_iam_role_policy" "eks_nodegroup_policy" {
     {
       "Effect": "Allow",
       "Action": "eks:*",
-      "Resource": "arn:aws:eks:us-east-1:101478099523:cluster/my-eks-cluster"
+      "Resource": "arn:aws:eks:us-east-1:615152404874:cluster/my-eks-cluster"
     }
   ]
 }
